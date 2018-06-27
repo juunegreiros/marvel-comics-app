@@ -1,0 +1,22 @@
+{
+  "name": "shield-database",
+  "version": "1.0.0",
+  "description": "App made with Marvel Api to a workshop at FATEC Sorocaba",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel": "6.23.0",
+    "eslinter": "3.2.1",
+    "md5": "2.2.1",
+    "sass": "1.7.1",
+    "sass-lint": "1.12.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
