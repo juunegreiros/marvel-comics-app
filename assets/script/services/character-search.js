@@ -12,9 +12,7 @@ export default name => {
   });
   instance
     .get()
-    .then(response => {
-      console.log(response);
-    })
+    .then(response => response.data.data.results)
     .catch(error => {
       console.log(error);
     });
